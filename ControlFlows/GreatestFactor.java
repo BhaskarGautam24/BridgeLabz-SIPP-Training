@@ -16,6 +16,6 @@ public class GreatestFactor {
             counter--;
         }
         System.out.println("Greatest factor of " + number + " besides itself is: " + greatestFactor);
-        sc.close();
+        
     }
 }
