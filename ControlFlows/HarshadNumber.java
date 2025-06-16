@@ -16,6 +16,6 @@ public class HarshadNumber {
         } else {
             System.out.println(number + " is not a Harshad Number.");
         }
-        sc.close();
+       
     }
 }
