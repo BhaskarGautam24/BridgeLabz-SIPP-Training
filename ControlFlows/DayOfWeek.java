@@ -23,7 +23,7 @@ public class DayOfWeek {
             "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
         };
 
-        System.out.println("Day of the week: " + days[d0]);
+        System.out.println("Day of the week:- " + days[d0]);
     }
 }
 
