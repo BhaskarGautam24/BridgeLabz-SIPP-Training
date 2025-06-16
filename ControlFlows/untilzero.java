@@ -18,6 +18,6 @@ public class untilzero {
         }
 
         System.out.println("The sum of all entered natural numbers is: " + sum);
-        input.close();
+        
     }
 }
