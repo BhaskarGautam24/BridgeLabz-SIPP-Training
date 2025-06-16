@@ -24,6 +24,6 @@ public class GreatestFactorWhile {
        
         System.out.println("The greatest factor of " + number + " (excluding itself) is: " + greatestFactor);
 
-        scanner.close();
+       
     }
 }
