@@ -24,4 +24,5 @@ public class Spring {
             System.out.println("Not a Spring Season");
         }
     }
+    
 }
