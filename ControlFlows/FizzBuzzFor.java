@@ -23,6 +23,6 @@ public class FizzBuzzFor {
                 }
             }
         }
-        input.close();
+        
     }
 }
