@@ -14,6 +14,6 @@ public class nNatural {
         } else {
             System.out.println("The number " + number + " is not a natural number");
         }
-        input.close();
+    
     }
 }
