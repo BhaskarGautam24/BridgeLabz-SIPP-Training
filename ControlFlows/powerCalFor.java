@@ -16,6 +16,6 @@ public class powerCalFor {
         }
 
         System.out.println(number + " raised to the power " + power + " is " + result);
-        input.close();
+        
     }
 }
