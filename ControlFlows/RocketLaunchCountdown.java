@@ -9,6 +9,6 @@ public class RocketLaunchCountdown {
             System.out.println(i);
         }
         System.out.println("Rocket launched!");
-        sc.close();
+        
     }
 }
