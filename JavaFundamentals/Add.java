@@ -1,4 +1,4 @@
-package Day1_JavaFundamentals;
+package JavaFundamentals;
 import java.util.*;
 
 public class Add {
