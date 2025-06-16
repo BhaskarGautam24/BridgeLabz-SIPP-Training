@@ -19,6 +19,6 @@ public class multiple100 {
             }
             System.out.println();
         }
-        input.close();
+        
     }
 }
