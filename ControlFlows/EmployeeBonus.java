@@ -12,6 +12,6 @@ public class EmployeeBonus {
             bonus = salary * 0.05;
         }
         System.out.println("Bonus amount: " + bonus);
-        sc.close();
+        
     }
 }
