@@ -46,6 +46,6 @@ public class GradeCalculator {
         System.out.println("Grade: " + grade);
         System.out.println("Remarks: " + remark);
 
-        input.close();
+        
     }
 }
