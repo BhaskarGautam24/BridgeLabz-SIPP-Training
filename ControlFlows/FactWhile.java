@@ -21,6 +21,6 @@ public class FactWhile {
             }
             System.out.println();
         }
-        input.close();
+        
     }
 }
