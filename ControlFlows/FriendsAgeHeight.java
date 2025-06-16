@@ -19,6 +19,6 @@ public class FriendsAgeHeight {
         double tallestHeight = Math.max(amarHeight, Math.max(akbarHeight, anthonyHeight));
         System.out.println("Youngest friend's age: " + youngestAge);
         System.out.println("Tallest friend's height: " + tallestHeight);
-        sc.close();
+        
     }
 }
