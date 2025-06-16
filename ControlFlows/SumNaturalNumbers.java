@@ -29,6 +29,6 @@ public class SumNaturalNumbers {
                 System.out.println("There is a mismatch in the results.");
             }
         }
-        input.close();
+        
     }
 } 
