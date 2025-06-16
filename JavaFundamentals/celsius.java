@@ -8,5 +8,6 @@ public class celsius {
         double c = sc.nextDouble();
         double f = (c * 9 / 5) + 32;
         System.out.println("Fahrenheit: " + f);
+        sc.close();
     }
 }

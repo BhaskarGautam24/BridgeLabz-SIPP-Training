@@ -13,5 +13,6 @@ public class Powercalculation {
 
     double result = Math.pow(base, exponent);
     System.out.println("Result: " + result);
+    sc.close();
   }
 }

@@ -16,5 +16,6 @@ public class Average {
 
         double average = (a + b + c) / 3;
         System.out.println("Average: " + average);
+        sc.close();
     }
 }

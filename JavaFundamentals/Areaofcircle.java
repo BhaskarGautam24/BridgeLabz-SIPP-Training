@@ -8,5 +8,6 @@ public class Areaofcircle {
         double r = sc.nextDouble();
         double area = Math.PI * r * r;
         System.out.println("Area of circle: " + area);
+        sc.close();
     }
 }
