@@ -16,6 +16,6 @@ public class DigitCount {
             }
         }
         System.out.println("Number of digits: " + count);
-        sc.close();
+        
     }
 }
