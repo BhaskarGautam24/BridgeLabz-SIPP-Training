@@ -13,6 +13,6 @@ public class posneg{
         else{
             System.out.println("zero");
         }
-        sc.close();
+        
     }
 }
