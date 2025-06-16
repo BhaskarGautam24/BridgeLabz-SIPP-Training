@@ -1,4 +1,4 @@
-package Day2_ProgrammingElements;
+package ProgrammingElements;
 
 import java.util.*;
 public class FeeDiscountInput {

@@ -1,4 +1,4 @@
-package Day2_ProgrammingElements;
+package ProgrammingElements;
 
 public class FeeDiscount {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Day2_ProgrammingElements;
+package ProgrammingElements;
 public class Pen {
     public static void main(String[] args) {
         int totalPens = 14;
