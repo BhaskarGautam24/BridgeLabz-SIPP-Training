@@ -27,7 +27,7 @@ public class PowerCalculator {
         
         System.out.println(number + " raised to the power " + power + " is: " + result);
 
-        sc.close();
+         
     }
 }
 
