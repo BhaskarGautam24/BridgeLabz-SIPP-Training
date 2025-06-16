@@ -17,6 +17,6 @@ public class OddEvenNumbers {
                 System.out.println(i + " is odd");
             }
         }
-        sc.close();
+     
     }
 }
