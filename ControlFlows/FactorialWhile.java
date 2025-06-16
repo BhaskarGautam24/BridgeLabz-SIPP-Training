@@ -18,6 +18,6 @@ public class FactorialWhile {
             }
             System.out.println("The factorial of " + number + " is " + factorial);
         }
-        input.close();
+       
     }
 }
