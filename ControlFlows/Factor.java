@@ -19,6 +19,6 @@ public class Factor {
             }
             System.out.println();
         }
-        input.close();
+        
     }
 }
