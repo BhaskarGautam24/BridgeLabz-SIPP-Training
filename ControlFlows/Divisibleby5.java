@@ -10,7 +10,7 @@ public class Divisibleby5 {
         else{
             System.out.println("Not possible");
         }
-        sc.close();
+        
     }
         
 }
