@@ -19,6 +19,6 @@ public class BMI {
         } else {
             System.out.println("Weight Status: Obesity");
         }
-        sc.close();
+        
     }
 }
