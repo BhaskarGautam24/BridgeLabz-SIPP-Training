@@ -33,7 +33,8 @@ public class BasicCalculator {
                 "The addition, subtraction, and multiplication value of 2 numbers %.2f and %.2f is %.2f, %.2f, and %.2f\n",
                 number1, number2, addition, subtraction, multiplication);
             System.out.println("Division not possible as the second number is 0.");
+            }
         }
     }
-}
+
 

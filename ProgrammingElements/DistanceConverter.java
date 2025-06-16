@@ -20,5 +20,6 @@ public class DistanceConverter {
         
         System.out.println("The distance in yards is " + distanceInYards + 
                            " while the distance in miles is " + distanceInMiles);
+        input.close();
     }
 }

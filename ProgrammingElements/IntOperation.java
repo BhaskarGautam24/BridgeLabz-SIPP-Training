@@ -29,6 +29,7 @@ public class IntOperation {
         System.out.println("a * b + c = " + result2);
         System.out.println("c + a / b = " + result3);
         System.out.println("a % b + c = " + result4);
+        input.close();
     }
 }
 

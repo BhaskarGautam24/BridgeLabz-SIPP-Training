@@ -16,5 +16,6 @@ public class SquareSideFinder {
 
         
         System.out.println("The length of the side is " + side + " whose perimeter is " + perimeter);
+        input.close();
     }
 }

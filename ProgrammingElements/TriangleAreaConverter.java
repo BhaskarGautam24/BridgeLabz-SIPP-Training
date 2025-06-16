@@ -25,5 +25,6 @@ public class TriangleAreaConverter {
         
         System.out.printf("The area of the triangle in sq cm is %.2f and in sq in is %.2f\n", areaSqCm, areaSqIn);
     }
-}
+    }
+
 
