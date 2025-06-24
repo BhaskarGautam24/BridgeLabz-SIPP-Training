@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class TextSplitDemo {
     
-    // Method to find string length without using length()
+    
     public static int findLength(String str) {
         int count = 0;
         try {
@@ -15,9 +15,9 @@ public class TextSplitDemo {
         return count;
     }
     
-    // Method to split text into words
+    
     public static String[] customSplit(String text) {
-        // Count words and store space indexes
+       
         int wordCount = 1;
         int[] spaceIndexes = new int[findLength(text)];
         int spaceCount = 0;
@@ -29,7 +29,7 @@ public class TextSplitDemo {
             }
         }
         
-        // Create and populate words array
+       
         String[] words = new String[wordCount];
         int startIndex = 0;
         for (int i = 0; i < wordCount - 1; i++) {
@@ -49,7 +49,7 @@ public class TextSplitDemo {
         return word.toString();
     }
     
-    // Method to compare string arrays
+    
     public static boolean compareArrays(String[] arr1, String[] arr2) {
         if (arr1.length != arr2.length) return false;
         for (int i = 0; i < arr1.length; i++) {
