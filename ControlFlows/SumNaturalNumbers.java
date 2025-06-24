@@ -16,8 +16,6 @@ public class SumNaturalNumbers {
             for (int i = 1; i <= n; i++) {
                 sumLoop += i;
             }
-
-            // Sum using formula
             int sumFormula = n * (n + 1) / 2;
 
             System.out.println("Sum using for loop: " + sumLoop);
@@ -28,7 +26,7 @@ public class SumNaturalNumbers {
             } else {
                 System.out.println("There is a mismatch in the results.");
             }
-        }
-        
+        } 
+        input.close();     
     }
-} 
+}
