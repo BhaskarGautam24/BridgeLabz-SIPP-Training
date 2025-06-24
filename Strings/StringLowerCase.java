@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class StringLowerCase {
     
-    // Method to convert string to lowercase using charAt
+    
     public static String convertToLowerCase(String input) {
         StringBuilder result = new StringBuilder();
         for (int i = 0; i < input.length(); i++) {
@@ -16,7 +16,7 @@ public class StringLowerCase {
         return result.toString();
     }
     
-    // Method to compare strings using charAt
+  
     public static boolean compareStrings(String str1, String str2) {
         if (str1.length() != str2.length()) {
             return false;
