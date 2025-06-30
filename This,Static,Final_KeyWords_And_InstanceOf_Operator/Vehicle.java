@@ -2,23 +2,22 @@
 
 public class Vehicle {
 	
-	   // Static variable
+	  
 	   private static double registrationFee = 1000.0; 
 	   
-	   // Instance variable
-	   private final String registrationNumber; // Final variable
+	 
+	   private final String registrationNumber;
 	   
 	   private String ownerName;
 	   private String vehicleType;
 	   
-	   // Constructor
+	   
 	   public Vehicle(String ownerName, String vehicleType, String registrationNumber) {
 	       this.ownerName = ownerName;
 	       this.vehicleType = vehicleType;
 	       this.registrationNumber = registrationNumber;
 	   }
 	   
-	   // Static method to update the registration fee
 	   public static void updateRegistrationFee(double newFee) {
 	       if (newFee >= 0.0) {
 	           registrationFee = newFee;
@@ -27,7 +26,7 @@ public class Vehicle {
 	       }
 	   }
 	   
-	   // Method to display vehicle registration details
+	  
 	   public void displayRegistrationDetails() {
 	       if (this instanceof Vehicle) {
 	           System.out.println("Owner Name: " + ownerName);
@@ -39,7 +38,7 @@ public class Vehicle {
 	       }
 	   }
 	   
-	   // Getters for instance variable
+	   
 	   public String getOwnerName() {
 	       return ownerName;
 	   }
@@ -50,7 +49,7 @@ public class Vehicle {
 	       return registrationNumber;
 	   }
 	   
-	   //Main Method
+	   
 	   public static void main(String[] args) {
 	       
 	       Vehicle.updateRegistrationFee(1500.0); 
