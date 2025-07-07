@@ -1,4 +1,4 @@
-package linked_list_package;
+package LinkedList;
 
 //Node class
 class Process {
