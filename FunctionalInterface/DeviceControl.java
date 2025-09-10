@@ -1,4 +1,4 @@
-package interfaces;
+
 
 public interface DeviceControl {
     void turnOn();
